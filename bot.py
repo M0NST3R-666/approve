@@ -67,12 +67,12 @@ async def op(_, m :Message):
         return 
     keyboard = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton("🗯 Channel", url="https://t.me/THEHYBRIDS"),
-            InlineKeyboardButton("💬 Support", url="https://t.me/+SvDPfZF-JhdhN2E9")
+            InlineKeyboardButton("🗯 Channel", url="https://t.me/DUNEBOTS"),
+            InlineKeyboardButton("💬 Support", url="https://t.me/DUNE_BOTS")
         ]]
     )
     add_user(m.from_user.id)
-    await m.reply_photo("https://graph.org/file/abb6d4d2c21112c8a6e3c-9a3b89cc6a258e4f69.jpg", caption="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powered By :  @THEHYBRIDS __**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
+    await m.reply_photo("https://graph.org/file/abb6d4d2c21112c8a6e3c-9a3b89cc6a258e4f69.jpg", caption="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powered By :  @DUNEBOTS __**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
     
 
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ callback ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -86,12 +86,12 @@ async def chk(_, m :Message, cb : CallbackQuery):
         return 
     keyboard = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton("🗯 Channel", url="https://t.me/THEHYBRIDS"),
-            InlineKeyboardButton("💬 Support", url="https://t.me/+SvDPfZF-JhdhN2E9")
+            InlineKeyboardButton("🗯 Channel", url="https://t.me/DUNEBOTS"),
+            InlineKeyboardButton("💬 Support", url="https://t.me/DUNE_BOTS")
         ]]
     )
     add_user(m.from_user.id)
-    await cb.edit_text(text="**Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powered By : @THEHYBRIDS __**".format(cb.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
+    await cb.edit_text(text="**Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powered By : @DUNEBOTS __**".format(cb.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
     
 
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ info ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
